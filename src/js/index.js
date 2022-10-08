@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import { SecondsCounter } from "./component/SecondsCounter.jsx"
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<SecondsCounter digit1="0" digit2="0" digit3="0" digit4="0" digit5="0" digit6="0"/>, document.querySelector("#app"));
